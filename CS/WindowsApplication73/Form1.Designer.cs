@@ -37,11 +37,12 @@ namespace WindowsApplication73
             this.pivotGridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pivotGridControl1.Location = new System.Drawing.Point(0, 0);
             this.pivotGridControl1.Name = "pivotGridControl1";
+            this.pivotGridControl1.OptionsData.DataProcessingEngine = DevExpress.XtraPivotGrid.PivotDataProcessingEngine.Optimized;
             this.pivotGridControl1.Size = new System.Drawing.Size(703, 422);
             this.pivotGridControl1.TabIndex = 0;
-            this.pivotGridControl1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pivotGridControl1_MouseMove);
-            this.pivotGridControl1.MouseLeave += new System.EventHandler(this.pivotGridControl1_MouseLeave);
             this.pivotGridControl1.CustomDrawFieldValue += new DevExpress.XtraPivotGrid.PivotCustomDrawFieldValueEventHandler(this.pivotGridControl1_CustomDrawFieldValue);
+            this.pivotGridControl1.MouseLeave += new System.EventHandler(this.pivotGridControl1_MouseLeave);
+            this.pivotGridControl1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pivotGridControl1_MouseMove);
             // 
             // Form1
             // 
