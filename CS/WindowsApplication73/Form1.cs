@@ -7,6 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraPivotGrid.ViewInfo;
 using DevExpress.XtraPivotGrid;
+using DevExpress.XtraPivotGrid.Data;
 
 namespace WindowsApplication73
 {
