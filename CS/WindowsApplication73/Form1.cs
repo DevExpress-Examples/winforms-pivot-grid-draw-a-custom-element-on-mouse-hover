@@ -61,7 +61,7 @@ namespace WindowsApplication73
             if (info.HitTest == PivotGridHitTest.Value)
             {
                 mousePos = e.Location;
-                BaseViewInfo newVI = info.ValueInfo.Data.ViewInfo.GetViewInfoAtPoint(e.Location);
+                BaseViewInfo newVI = ((PivotGridViewInfoData)info.ValueInfo.Data).ViewInfo.GetViewInfoAtPoint(e.Location);
                 if (!object.ReferenceEquals(newVI, viewInfo))
                 {
                     pivotGridControl1.Invalidate(newVI.PaintBounds);
