@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# Pivot Grid for WinForms - How to draw a custom element when a user hovering over Field Value with a mouse
+# Pivot Grid for WinForms - Draw a Custom Element When a User Hovers Over a Field Value with a Mouse
 
 This example shows how to determine whether the mouse is hovered on [Field Value](https://docs.devexpress.com/WindowsForms/1694/controls-and-libraries/pivot-grid/ui-elements/field-value) and redraw the corresponding element. The [PivotGridControl.CustomDrawFieldValue](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.CustomDrawFieldValue) event occurs before painting the field value, total header, grand total header, or data field header. The [PivotGridControl.CalcHitInfo](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.CalcHitInfo(System.Drawing.Point)) method call handles the `MouseMove` event to determine whether the Field Value is hovered.
 
